@@ -1,0 +1,85 @@
+body {
+    background: #25274d;
+}
+.container {
+    background: white;
+    width: 57%;
+    height: 430px;
+    display: inline-flex;
+    border-radius: 10px;
+    margin: 9% 21%;
+}
+.left {
+    width: 25%;
+    background: #ff9b00;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.rigth {
+    width: 85%;
+    height: 100%;
+ 
+}
+#datos {
+    border: 2px solid green;
+    margin: 0px;
+}
+i {
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    padding: 5px 30px;
+}
+.datos {
+    display: flex;
+    flex-direction: column;
+    height: 78%;
+}
+
+.inferior {
+    height: 20%;
+}
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20%;
+    margin: 20px 35px 5px 35px;
+}
+.capturadores {
+    border: 1px solid rgb(179, 172, 172);
+    width: 70%;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 35px;
+    font-size: 12px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#comment {
+    height: 35%;
+    text-align: left;
+}
+button {
+    width: 20%;
+    height: 40px;
+    background: #25274d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 25px 20px;
+    margin-left: 35px;
+}
